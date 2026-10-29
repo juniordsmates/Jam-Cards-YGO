@@ -4,22 +4,24 @@ App para buscar cartas de Yu-Gi-Oh!, montar decks, testar mãos e ver combos.
 
 ## Baixar
 
-Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.0 Alpha**, que ainda instala o app com o nome antigo, **Cartas**. As próximas versões já vêm como Jam Cards - YGO!.
+Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.1 Alpha**.
 
 | Sistema | Arquivo |
 | --- | --- |
-| Windows 10/11 | `Cartas_1.0.0_x64-setup.exe` |
-| macOS (Apple Silicon e Intel) | `Cartas_1.0.0_universal.dmg` |
+| Windows 10/11 | `Jam.Cards.-.YGO._1.0.1_x64-setup.exe` |
+| macOS (Apple Silicon e Intel) | `Jam.Cards.-.YGO._1.0.1_universal.dmg` |
+
+No GitHub, os nomes dos arquivos trocam espaços e "!" por pontos; depois de instalado, o app se chama **Jam Cards - YGO!**.
 
 ### Primeira abertura
 
 O app ainda não tem assinatura digital, então o sistema avisa na primeira vez:
 
 - **Windows:** na tela azul "O Windows protegeu o computador", clique em **Mais informações** e depois em **Executar assim mesmo**.
-- **macOS:** arraste o app para Aplicativos. Na primeira vez, clique com o botão direito no app e escolha **Abrir**. Se o macOS disser que o app "está danificado", rode no Terminal (na versão 1.0.0, o app se chama Cartas):
+- **macOS:** arraste o Jam Cards - YGO! para Aplicativos. Na primeira vez, clique com o botão direito no app e escolha **Abrir**. Se o macOS disser que o app "está danificado", rode no Terminal:
 
   ```sh
-  xattr -cr /Applications/Cartas.app
+  xattr -cr '/Applications/Jam Cards - YGO!.app'
   ```
 
 ## Pasta `dados`
