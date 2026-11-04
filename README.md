@@ -24,9 +24,9 @@ O app ainda não tem assinatura digital, então o sistema avisa na primeira vez:
   xattr -cr '/Applications/Jam Cards - YGO!.app'
   ```
 
-## Pasta `dados`
+## Dados do app
 
-O arquivo [dados/camada.json](dados/camada.json) é baixado automaticamente pelo app. Ele traz tags, ajustes de leitura e combos calculados, mas **nenhum texto ou imagem de carta**. É gerado todos os dias: não edite à mão.
+As tags, os ajustes de leitura e os combos calculados que o app usa não ficam mais neste repositório: o app baixa esses dados de um armazenamento privado. Para receber os dados novos, use a versão mais recente do app (1.0.4 ou posterior).
 
 ## Avisos
 
