@@ -10,8 +10,16 @@
     <meta name="GPTBot" content="noindex, nofollow" />
     <meta name="CCBot" content="noindex, nofollow" />
     <meta name="tdm-reservation" content="1" />
-    <script type="module" crossorigin src="/Jam-Cards-YGO/assets/index-dVcL3qGT.js"></script>
-    <link rel="stylesheet" crossorigin href="/Jam-Cards-YGO/assets/index-Da4SASoI.css">
+    <!-- modo claro/escuro salvo (src/tema.ts), aplicado antes de desenhar para a tela não piscar -->
+    <script>
+      try {
+        var t = localStorage.getItem("cartas-tema");
+        if (t !== "claro" && t !== "escuro") t = matchMedia("(prefers-color-scheme: dark)").matches ? "escuro" : "claro";
+        document.documentElement.dataset.tema = t;
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="/Jam-Cards-YGO/assets/index-DC0Fayk9.js"></script>
+    <link rel="stylesheet" crossorigin href="/Jam-Cards-YGO/assets/index-C8jjZmkW.css">
   </head>
   <body>
     <div id="root"></div>
