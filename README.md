@@ -4,12 +4,12 @@ App para buscar cartas de Yu-Gi-Oh!, montar decks, testar mãos e ver combos.
 
 ## Baixar
 
-Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.5 Alpha**.
+Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.6 Alpha**, com o **Simulador**: duelo com as regras do jogo contra a IA.
 
 | Sistema | Arquivo |
 | --- | --- |
-| Windows 10/11 | `Jam.Cards.-.YGO._1.0.5_x64-setup.exe` |
-| macOS (Apple Silicon e Intel) | `Jam.Cards.-.YGO._1.0.5_universal.dmg` |
+| Windows 10/11 | `Jam.Cards.-.YGO._1.0.6_x64-setup.exe` |
+| macOS (Apple Silicon e Intel) | `Jam.Cards.-.YGO._1.0.6_universal.dmg` |
 
 No GitHub, os nomes dos arquivos trocam espaços e "!" por pontos; depois de instalado, o app se chama **Jam Cards - YGO!**.
 
@@ -31,3 +31,7 @@ As tags, os ajustes de leitura e os combos calculados que o app usa não ficam m
 ## Avisos
 
 O Jam Cards - YGO! é um projeto independente e não tem ligação com a Konami. Yu-Gi-Oh! é marca registrada da Konami. Os dados das cartas vêm da [YGOPRODeck](https://ygoprodeck.com).
+
+## Código-fonte
+
+O Jam Cards - YGO! é software livre, sob a licença AGPL-3.0: o código-fonte do app está em [Jam-Cards-YGO-App](https://github.com/juniordsmates/Jam-Cards-YGO-App). O Simulador usa o motor de regras e os scripts das cartas do [Project Ignis](https://github.com/ProjectIgnis) (EDOPro), também AGPL-3.0.
