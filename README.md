@@ -4,12 +4,12 @@ App para buscar cartas de Yu-Gi-Oh!, montar decks, testar mãos e ver combos.
 
 ## Baixar
 
-Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.18 Alpha**, com o **Simulador**: duelo com as regras do jogo contra a IA.
+Os instaladores ficam em **[Releases](https://github.com/juniordsmates/Jam-Cards-YGO/releases/latest)**. A versão atual é a **1.0.19 Alpha**, com o **Simulador**: duelo com as regras do jogo contra a IA.
 
 | Sistema | Arquivo |
 | --- | --- |
-| Windows 10/11 | `Jam.Cards.-.YGO._1.0.18_x64-setup.exe` |
-| macOS (Apple Silicon e Intel) | `Jam.Cards.-.YGO._1.0.18_universal.dmg` |
+| Windows 10/11 | `Jam.Cards.-.YGO._1.0.19_x64-setup.exe` |
+| macOS (Apple Silicon e Intel) | `Jam.Cards.-.YGO._1.0.19_universal.dmg` |
 
 No GitHub, os nomes dos arquivos trocam espaços e "!" por pontos; depois de instalado, o app se chama **Jam Cards - YGO!**.
 
