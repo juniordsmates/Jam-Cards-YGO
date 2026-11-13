@@ -2,26 +2,17 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/Jam-Cards-YGO/app-icon.svg" />
-    <title>Jam Cards - YGO!</title>
-    <!-- conteúdo e dados do app não podem ser usados para treinar ou alimentar IA (Termos de Uso, seção 4) -->
-    <meta name="robots" content="noai, noimageai" />
-    <meta name="GPTBot" content="noindex, nofollow" />
-    <meta name="CCBot" content="noindex, nofollow" />
+    <!-- Endereço antigo do site (GitHub Pages): manda para o site no Cloudflare, mantendo a rota
+         depois do # (links de carta, combo, sala de duelo e replay continuam funcionando). -->
+    <meta name="robots" content="noindex, noai, noimageai" />
     <meta name="tdm-reservation" content="1" />
-    <!-- modo claro/escuro salvo (src/tema.ts), aplicado antes de desenhar para a tela não piscar -->
+    <title>Jam Cards - YGO!</title>
     <script>
-      try {
-        var t = localStorage.getItem("cartas-tema");
-        if (t !== "claro" && t !== "escuro") t = matchMedia("(prefers-color-scheme: dark)").matches ? "escuro" : "claro";
-        document.documentElement.dataset.tema = t;
-      } catch (e) {}
+      location.replace("https://jam-cards-ygo-app.juniordsmates.workers.dev/" + location.hash);
     </script>
-    <script type="module" crossorigin src="/Jam-Cards-YGO/assets/index-CQfdv3Qa.js"></script>
-    <link rel="stylesheet" crossorigin href="/Jam-Cards-YGO/assets/index-BPhF8kue.css">
+    <noscript><meta http-equiv="refresh" content="0; url=https://jam-cards-ygo-app.juniordsmates.workers.dev/" /></noscript>
   </head>
   <body>
-    <div id="root"></div>
+    <p>O Jam Cards - YGO! mudou de endereço: <a href="https://jam-cards-ygo-app.juniordsmates.workers.dev/">jam-cards-ygo-app.juniordsmates.workers.dev</a></p>
   </body>
 </html>
